@@ -5,12 +5,13 @@ import React from 'react';
 const SingleKitten = () => {
   const { kittenId } = useParams();
   const kitten = kittens.find((kitten) => kitten.id === kittenId);
-  const { image, name } = kitten;
+  const { image2, name, description } = kitten;
   return (
     <section className="section product">
-      <img src={image} alt={name} />
+      <img src={image2} alt={name} />
       <h5>{name}</h5>
-      <Link to="/kittens">back to products</Link>
+      <p>{description}</p>
+      <Link to="/kittens">back to Kittens</Link>
     </section>
   );
 };

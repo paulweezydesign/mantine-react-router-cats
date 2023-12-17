@@ -1,162 +1,180 @@
-import React from 'react';
+import React from "react";
 import {
-  FaBehance,
-  FaFacebook,
-  FaLinkedin,
-  FaTwitter,
-  FaSketch,
-  FaHome,
-  FaUserFriends,
-  FaFolderOpen,
-  FaCalendarAlt,
-  FaWpforms,
-} from 'react-icons/fa';
-export const links = [
-  {
-    id: 1,
-    url: '/',
-    text: 'home',
-    icon: <FaHome />,
-  },
-  {
-    id: 2,
-    url: '/team',
-    text: 'team',
-    icon: <FaUserFriends />,
-  },
-  {
-    id: 3,
-    url: '/projects',
-    text: 'projects',
-    icon: <FaFolderOpen />,
-  },
-  {
-    id: 4,
-    url: '/calendar',
-    text: 'calendar',
-    icon: <FaCalendarAlt />,
-  },
-  {
-    id: 5,
-    url: '/documents',
-    text: 'documents',
-    icon: <FaWpforms />,
-  },
+    FaBehance,
+    FaFacebook,
+    FaLinkedin,
+    FaTwitter,
+    FaSketch,
+    FaHome,
+    FaUserFriends,
+    FaFolderOpen,
+    FaCalendarAlt,
+    FaWpforms,
+} from "react-icons/fa";
+export const links = [{
+        id: 1,
+        url: "/",
+        text: "home",
+        icon: < FaHome / > ,
+    },
+    {
+        id: 2,
+        url: "/team",
+        text: "team",
+        icon: < FaUserFriends / > ,
+    },
+    {
+        id: 3,
+        url: "/projects",
+        text: "projects",
+        icon: < FaFolderOpen / > ,
+    },
+    {
+        id: 4,
+        url: "/calendar",
+        text: "calendar",
+        icon: < FaCalendarAlt / > ,
+    },
+    {
+        id: 5,
+        url: "/documents",
+        text: "documents",
+        icon: < FaWpforms / > ,
+    },
 ];
 
-export const social = [
-  {
-    id: 1,
-    url: 'https://www.twitter.com',
-    icon: <FaFacebook />,
-  },
-  {
-    id: 2,
-    url: 'https://www.twitter.com',
-    icon: <FaTwitter />,
-  },
-  {
-    id: 3,
-    url: 'https://www.twitter.com',
-    icon: <FaLinkedin />,
-  },
-  {
-    id: 4,
-    url: 'https://www.twitter.com',
-    icon: <FaBehance />,
-  },
-  {
-    id: 5,
-    url: 'https://www.twitter.com',
-    icon: <FaSketch />,
-  },
+export const social = [{
+        id: 1,
+        url: "https://www.twitter.com",
+        icon: < FaFacebook / > ,
+    },
+    {
+        id: 2,
+        url: "https://www.twitter.com",
+        icon: < FaTwitter / > ,
+    },
+    {
+        id: 3,
+        url: "https://www.twitter.com",
+        icon: < FaLinkedin / > ,
+    },
+    {
+        id: 4,
+        url: "https://www.twitter.com",
+        icon: < FaBehance / > ,
+    },
+    {
+        id: 5,
+        url: "https://www.twitter.com",
+        icon: < FaSketch / > ,
+    },
 ];
 
-const kittens = [
-  {
-    id: 'recZkNf2kwmdBcqd0',
-    name: 'Filaberta',
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recEHmzvupvT8ZONH',
-    name: 'Garfield',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'rec5NBwZ5zCD9nfF0',
-    name: 'Pancake',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recd1jIVIEChmiwhe',
-    name: 'Rocket',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recoM2MyHJGHLVi5l',
-    name: 'Fluffy',
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recZkNf2kwmdBcqd0',
-    name: 'Bean',
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recEHmzvupvT8ZONH',
-    name: 'Fat Head',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'rec5NBwZ5zCD9nfF0',
-    name: 'Mean Kitty ',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recd1jIVIEChmiwhe',
-    name: 'Nice Kitty',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recoM2MyHJGHLVi5l',
-    name: 'Baby Bean',
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recZkNf2kwmdBcqd0',
-    name: 'Baby Bean jr',
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recEHmzvupvT8ZONH',
-    name: 'Baby Bean III',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'rec5NBwZ5zCD9nfF0',
-    name: 'Baby Bean tha 4th',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recd1jIVIEChmiwhe',
-    name: 'Baby Bean numero 5',
-
-    image: 'http://placekitten.com/200/300',
-  },
-  {
-    id: 'recoM2MyHJGHLVi5l',
-    name: 'Fluffy',
-    image: 'http://placekitten.com/200/300',
-  },
+const kittens = [{
+        id: "recZkNf2kwmdBcqd0",
+        name: "Filaberta",
+        image: "https://api.lorem.space/image/movie?w=150&h=220",
+        image2: "https://api.lorem.space/image/movie?w=1200&h=450",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recEHmzvupvT8ZONH",
+        name: "Garfield",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "rec5NBwZ5zCD9nfF0",
+        name: "Pancake",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recd1jIVIEChmiwhe",
+        name: "Rocket",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recoM2MyHJGHLVi5l",
+        name: "Fluffy",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recZkNf2kwmdBcqd0",
+        name: "Bean",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recEHmzvupvT8ZONH",
+        name: "Fat Head",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "rec5NBwZ5zCD9nfF0",
+        name: "Mean Kitty ",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recd1jIVIEChmiwhe",
+        name: "Nice Kitty",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recoM2MyHJGHLVi5l",
+        name: "Baby Bean",
+        image: "http://placekitten.com/200/300",
+        image2: "http://placekitten.com/1200/450",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recZkNf2kwmdBcqd0",
+        name: "Baby Bean jr",
+        image: "http://placekitten.com/200/300",
+        image2: "http://placekitten.com/1200/450",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recEHmzvupvT8ZONH",
+        name: "Baby Bean III",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "rec5NBwZ5zCD9nfF0",
+        name: "Baby Bean tha 4th",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recd1jIVIEChmiwhe",
+        name: "Baby Bean numero 5",
+        image2: "http://placekitten.com/1200/450",
+        image: "http://placekitten.com/200/300",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
+    {
+        id: "recoM2MyHJGHLVi5l",
+        name: "Fluffy",
+        image: "http://placekitten.com/200/300",
+        image2: "http://placekitten.com/1200/450",
+        description: "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    },
 ];
 
 export default kittens;
